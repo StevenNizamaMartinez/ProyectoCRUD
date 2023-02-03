@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #202020;
+  color: white;
+}
+
+.container {
+  align-self: center;
+  margin: 24px auto;
+  width: 80%;
+  box-shadow: 10px 10px 45px 0px rgba(0, 0, 0, 0.55);
+  padding: 24px 0px;
+  background-color: #464646;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 24px 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form .text {
+  width: 50%;
+  border: none;
+  border-bottom: 1px solid whitesmoke;
+  padding: 12px;
+  outline: none;
+  margin-bottom: 24px;
+  background-color: #464646;
+  font-size: 24px;
+  color: antiquewhite;
+}
+
+.form .add{
+  border: none;
+  padding: 12px;
+  border-radius: 12px;
+  outline: none;
+  margin-bottom: 24px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+
+.containerList{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+gap: 12px;
+}
+
+.classlist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 24px;
+  width: 50%;
+  font-size: 24px;
+  padding: 12px 0;
+  background-color: salmon;
+
+}
+
+.classlist p{
+    color: black;
+    margin-left: 24px;
+    word-wrap: break-word;
+    max-width: 50%;
+}
+
+.classlist span{
+    display: flex;
+    gap: 12px;
+    margin-right: 24px;
+}
+
+.true{
+  background-color: green;
+}
+
+@media (max-width:425px) {
+
+  .container{
+    width: 90%;
+  }
+
+  h1{
+    font-size: 20px;
+  }
+
+  .classlist{
+    width: 80%;
+    font-size: 80%;
+  }
+
+  .classlist p{
+    color: black;
+    margin-left: 24px;
+    word-wrap: break-word;
+    max-width: 35%;
+}
+
+.classlist i{
+  font-size: 20px;
+}
+
+.form .text {
+  width: 70%;}
+
+
+}
